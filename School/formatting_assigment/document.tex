@@ -1,0 +1,155 @@
+% Start of the LaTeX document
+\documentclass[12pt,a4paper]{report}
+\usepackage{graphicx} % For including figures
+\usepackage{amsmath}  % For math equations
+\usepackage{geometry} % For page setup
+\usepackage{setspace} % For line spacing
+\usepackage{titlesec} % For title formatting
+\usepackage{fancyhdr} % For header and footer
+\usepackage{tocloft}  % For table of contents
+
+% Page setup
+\geometry{top=1in,bottom=1in,left=1.5in,right=1in}
+\setstretch{1.5} % Line spacing
+
+% Title formatting
+\titleformat{\chapter}[block]{\normalfont\huge\bfseries}{\thechapter.}{20pt}{\huge\bfseries}
+\titleformat{\section}[block]{\normalfont\Large\bfseries}{\thesection}{20pt}{\Large\bfseries}
+\titleformat{\subsection}[block]{\normalfont\large\bfseries}{\thesubsection}{20pt}{\large\bfseries}
+
+% Customizing Table of Contents
+\renewcommand{\cftchapfont}{\bfseries}
+\renewcommand{\cftsecfont}{\bfseries}
+\renewcommand{\cftchappagefont}{\bfseries}
+\renewcommand{\cftsecpagefont}{\bfseries}
+
+% Header and Footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyhead[R]{\thepage}
+\fancyfoot[C]{\thepage}
+
+\begin{document}
+
+	% Title Page
+	\begin{titlepage}
+		\centering
+		\vspace*{1in}
+		{\LARGE \bfseries UNIVERSITY OF MINES AND TECHNOLOGY, TARKWA \\}
+		\vspace{0.5in}
+		{\Large FACULTY OF INTEGRATED MANAGEMENT SCIENCE \\}
+		\vspace{0.5in}
+		{\Large DEPARTMENT OF MANAGEMENT STUDIES \\}
+		\vspace{1.5in}
+		{\Large A THESIS REPORT ENTITLED \\}
+		\vspace{0.5in}
+		{\LARGE \bfseries Formatting Assignment \\}
+		\vspace{0.5in}
+		{\Large BY \\}
+		\vspace{0.5in}
+		{\LARGE \bfseries Akyene Tetteh \\}
+		\vspace{0.5in}
+		{\Large Index Number: 123456 \\}
+		\vfill
+		{\Large SUBMITTED IN PARTIAL FULFILLMENT OF THE REQUIREMENT FOR THE AWARD OF THE DEGREE OF MASTERS OF SCIENCE IN ENGINEERING MANAGEMENT \\}
+		\vfill
+		{\Large THESIS SUPERVISORS \\}
+		\vspace{0.3in}
+		\begin{tabbing}
+			\hspace{2in} \= \hspace{3in} \= \kill
+			\large \textbf{Dr. Frank Boateng} \> \large \textbf{Dr. Akyene Tetteh} \\
+			\large (Principal Supervisor) \> \large (Co-Supervisor)
+		\end{tabbing}
+		\vfill
+		{\Large TARKWA, GHANA \\}
+		\vspace{0.5in}
+		{\Large May 2023 \\}
+	\end{titlepage}
+
+	% Declaration Page
+	\chapter*{Declaration}
+	\addcontentsline{toc}{chapter}{Declaration}
+	I declare that this thesis is my own work. It is being submitted for the degree of Master of Science in Engineering Management at the University of Mines and Technology (UMaT), Tarkwa. This thesis has not been submitted for any degree or examination in any other University. \\
+	\vspace{1in}
+	\begin{flushleft}
+		\makebox[2.5in]{\hrulefill} \hfill \makebox[1.5in]{\hrulefill} \\
+		(Signature of candidate) \hfill Date
+	\end{flushleft}
+
+	% Abstract Page
+	\chapter*{Abstract}
+	\addcontentsline{toc}{chapter}{Abstract}
+	The abstract is a concise summary of the research conducted, including key findings and conclusions. It should be between 150-300 words and provide a snapshot of the study’s scope, methodology, results, and implications.
+
+	% Dedication Page
+	\chapter*{Dedication}
+	\addcontentsline{toc}{chapter}{Dedication}
+	\emph{This work is dedicated to my family and friends who have supported me throughout my academic journey.}
+
+	% Acknowledgement Page
+	\chapter*{Acknowledgement}
+	\addcontentsline{toc}{chapter}{Acknowledgement}
+	I would like to express my gratitude to my supervisors, Dr. Frank Boateng and Dr. Akyene Tetteh, for their invaluable guidance and support throughout this research. I also extend my thanks to my colleagues and the staff at Kaltire Ghana for their cooperation and assistance.
+
+	% Table of Contents
+	\tableofcontents
+
+	% List of Figures
+	\listoffigures
+	\addcontentsline{toc}{chapter}{List of Figures}
+
+	% List of Tables
+	\listoftables
+	\addcontentsline{toc}{chapter}{List of Tables}
+
+	% Abbreviations
+	\chapter*{Abbreviations}
+	\addcontentsline{toc}{chapter}{Abbreviations}
+	\begin{tabbing}
+		\hspace{2in} \= \kill
+		OEE \> Overall Equipment Effectiveness \\
+		EMS \> Environmental Management System \\
+		ISO \> International Standards Organisation \\
+		etc.
+	\end{tabbing}
+
+	% Chapter 1
+	\chapter{Introduction}
+	\section{Background to the Study}
+	The growing demand for sustainable environmental practices in the production process of goods and services has now become a subject of global concern due to the ever-increasing cases of global warming and greenhouse effects. The global greenhouse emission as reported by the 2014 Intergovernmental Panel on Climate Change (IPCC) report shows that the industrial and electricity sector jointly contributed 46\% of the global greenhouse emission. 24\% was from the agricultural sector, 14\% and 6\% was from transportation and building respectively. The remaining 10\% was from other sectors as shown in Figure 1.1.
+
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\textwidth]{/home/kali/Pictures/1}
+		\caption{Global Greenhouse Gas Emission}
+		\label{fig:greenhouse_emission}
+		\texttt{Pachouri et al (2014)}
+	\end{figure}
+
+	% Continue with the remaining sections
+	\section{Statement of Problem}
+	Responsiveness of the science and art of logistics remains a subject of research...
+
+	% (Include more sections and chapters as needed)
+
+	% Chapter 2
+	\chapter{Literature Review}
+	\section{Introduction}
+	This chapter provides the conceptual, theoretical, and empirical reviews of the project...
+
+	\section{Mining Asset and Its Importance}
+	Most mining assets are divided into two main categories...
+
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\textwidth]{/home/kali/Pictures/2}
+		\caption{Mining value chain}
+		\label{fig:mining_value_chain}
+		\texttt{PwC Asia School of Mines (2012)}
+	\end{figure}
+
+	% Continue with the remaining sections
+	% ...
+
+\end{document}

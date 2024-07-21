@@ -1,0 +1,13 @@
+\contentsline {chapter}{Declaration}{1}{}%
+\contentsline {chapter}{Abstract}{2}{}%
+\contentsline {chapter}{Dedication}{3}{}%
+\contentsline {chapter}{Acknowledgement}{4}{}%
+\contentsline {chapter}{List of Figures}{5}{}%
+\contentsline {chapter}{List of Tables}{5}{}%
+\contentsline {chapter}{Abbreviations}{6}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{7}{}%
+\contentsline {section}{\numberline {1.1}Background to the Study}{7}{}%
+\contentsline {section}{\numberline {1.2}Statement of Problem}{7}{}%
+\contentsline {chapter}{\numberline {2}Literature Review}{8}{}%
+\contentsline {section}{\numberline {2.1}Introduction}{8}{}%
+\contentsline {section}{\numberline {2.2}Mining Asset and Its Importance}{8}{}%
