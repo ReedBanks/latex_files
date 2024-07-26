@@ -1,0 +1,57 @@
+\documentclass[12pt,a4paper]{report}
+
+%------Packages-----%
+\usepackage{amsmath,amsfonts,amssymb,enumerate}
+\usepackage[top=1in,bottom=1in,right=1in,left=1.5in]{geometry}
+\usepackage{graphicx,titlesec}
+\usepackage{hyperref,float}
+\usepackage[]{url}
+\usepackage{datetime,hanging}
+
+%------Infos-----%
+\author{FOE.41.008.014.21}
+\title{Computer Lab II Report}
+\newcommand{\lecturer}{Dr. AKYENE TETTEH}
+\newcommand{\school}{
+	\centering
+	\textbf{\large UNIVERSITY OF MINES AND TECHNOLOGY \\TARKWA
+	\vspace{1cm}	\\FACULTY OF COMPUTING AND MATHEMATICAL SCIENCES
+	DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
+	}
+}
+
+\newcommand{\rpaim}{
+	\centering
+
+ \textbf{\large LITERATURE REVIEW OF TEN ARTICLES \\ REVIEW TOPIC\\REVOLUTIONIZING NETWORKS WITH SOFTWARE DEFINED NETWORKING \\BY \\FOE.41.008.014.21\\COURSE : RESEARCH METHODS AND ETHICS \\CE 352\\ LECTURER : \lecturer \\ \vspace{1.5cm} \today }}
+
+
+%------Body-----%
+
+\begin{document}
+	\pagenumbering{roman}
+	% School Info
+	\begin{titlepage}
+		\school
+		\vspace{2cm}
+		\begin{center}
+			\includegraphics[width=0.4\textwidth]{/home/kali/Documents/latex_files/School/umaru_report/umat_logo.jpg} % Adjust width as needed
+		\end{center}
+		\vspace{1cm}
+		\rpaim
+
+		\vfill
+
+	%	\maketitle
+	\end{titlepage}
+	% Chapters
+	\pagenumbering{arabic}
+	\include{chap1}
+	%\include{chap2}
+
+	% References
+	\include{References}
+
+	%------Conclusion-----%
+
+\end{document}
