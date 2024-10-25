@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.7.5)  31 JUL 2024 16:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.7.5)  22 OCT 2024 19:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**cyber.tex
-(./cyber.tex
+**pesting.tex
+(./pesting.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -461,8 +461,8 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count280
 \l__pdf_internal_box=\box58
 )
-(./cyber.aux)
-\openout1 = `cyber.aux'.
+(./pesting.aux)
+\openout1 = `pesting.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 152.
 LaTeX Font Info:    ... okay on input line 152.
@@ -505,9 +505,9 @@ LaTeX Font Info:    ... okay on input line 152.
 \everyMPtoPDFconversion=\toks29
 )
 Package hyperref Info: Link coloring OFF on input line 152.
- (./cyber.out) (./cyber.out)
+ (./pesting.out) (./pesting.out)
 \@outlinefile=\write3
-\openout3 = `cyber.out'.
+\openout3 = `pesting.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 157.
@@ -530,41 +530,36 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
 (Font)              scaled to size 24.88pt on input line 158.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/sc' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/sc' on input line 174.
+(Font)              `T1/SourceSansPro-TLF/regular/sc' on input line 175.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/sc' will be
-(Font)              scaled to size 10.95pt on input line 174.
+(Font)              scaled to size 10.95pt on input line 175.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/sc' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/sc' on input line 174.
+(Font)              `T1/SourceSansPro-TLF/regular/sc' on input line 175.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/sc' will be
-(Font)              scaled to size 12.0pt on input line 174.
+(Font)              scaled to size 12.0pt on input line 175.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 175.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 176.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 175.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 176.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
 (Font)              scaled to size 10.0pt on input line 176.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 177.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
+(Font)              scaled to size 10.0pt on input line 177.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/sc' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/sc' on input line 184.
+(Font)              `T1/SourceSansPro-TLF/regular/sc' on input line 185.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/sc' will be
-(Font)              scaled to size 10.0pt on input line 184.
+(Font)              scaled to size 10.0pt on input line 185.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 186.
+(Font)              <7> on input line 187.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 186.
-
-Underfull \hbox (badness 10000) in alignment at lines 186--186
-[][][] 
- []
-
+(Font)              <5> on input line 187.
 
 Underfull \hbox (badness 10000) in alignment at lines 187--187
 [][][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 190--190
+Underfull \hbox (badness 10000) in alignment at lines 188--188
 [][][] 
  []
 
@@ -578,14 +573,19 @@ Underfull \hbox (badness 10000) in alignment at lines 192--192
 [][][] 
  []
 
+
+Underfull \hbox (badness 10000) in alignment at lines 193--193
+[][][] 
+ []
+
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 231.
+(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 232.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 231.
+(Font)              scaled to size 10.0pt on input line 232.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 243.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 244.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 243.
+(Font)              scaled to size 6.0pt on input line 244.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -595,32 +595,33 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/sourcesanspro/a_emkxm5.enc}{/usr/share/texlive/texmf-dist/fo
-nts/enc/dvips/sourcesanspro/a_4jropk.enc}] (./cyber.aux)
+nts/enc/dvips/sourcesanspro/a_4jropk.enc}] (./pesting.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-Package rerunfilecheck Info: File `cyber.out' has not changed.
-(rerunfilecheck)             Checksum: C2763F4AA4934C8C770098DB3AC61CA3;524.
+Package rerunfilecheck Info: File `pesting.out' has not changed.
+(rerunfilecheck)             Checksum: E4665A7D5D4C4441A57294B8108B4BB5;496.
  ) 
 Here is how much of TeX's memory you used:
  11411 strings out of 474222
- 180054 string characters out of 5748734
+ 180092 string characters out of 5748734
  1945975 words of memory out of 5000000
  33502 multiletter control sequences out of 15000+600000
  657395 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,313b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,315b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-
 Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceS
 ansPro-It.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/So
 urceSansPro-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy6.pfb>
-Output written on cyber.pdf (1 page, 189892 bytes).
+nts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.
+pfb>
+Output written on pesting.pdf (1 page, 197668 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 72 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

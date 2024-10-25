@@ -1,0 +1,252 @@
+\documentclass[12pt]{report}
+
+%------Packages-----%
+\usepackage{amsmath,amsfonts,amssymb,enumerate}
+\usepackage[top=1in,bottom=1in,right=1in,left=1.5in]{geometry}
+\usepackage{graphicx,titlesec}
+\usepackage{hyperref,float}
+\usepackage[]{url}
+\usepackage{ragged2e}
+
+
+
+\makeatletter
+\renewcommand{\@dotsep}{200} % Sets the dot spacing to an excessively large value so they seem to have vanished
+\makeatother
+
+%------Infos-----%
+\author{REXFORD ACQUAH}
+
+\newcommand{\lecturer}{DR ABDEL FATAO}
+\newcommand{\school}{
+	\centering
+	\textbf{\large UNIVERSITY OF MINES AND TECHNOLOGY \\TARKWA
+		\vspace{1cm}	\\FACULTY OF COMPUTER SCIENCE AND ENGINEERING  DEPARTMENT}
+}
+
+\newcommand{\rpaim}{
+	\centering
+
+	\textbf{\large A FIELD TRIP REPORT TO APPOLONIA MAIN 1 DATA CENTRE \\ BY \\REXFORD ACQUAH\\
+		FOE.008.041.014.21 \\ CE 356 \vspace{1.5em} \lecturer}
+}
+
+
+%------Body-----%
+\begin{document}
+	\pagenumbering{roman}
+% School Info
+\begin{titlepage}
+	\school
+	\vspace{2cm}
+	\begin{center}
+		\includegraphics[width=0.4\textwidth]{/home/kali/Documents/latex_files/School/umaru_report/umat_logo.jpg} % Adjust width as needed
+	\end{center}
+	\vspace{1cm}
+	\rpaim
+	\vfill
+
+	%	\maketitle
+\end{titlepage}
+
+\section*{DECLARATION}
+I, Rexford Acquah, declare that this field trip report is my own work and is being presented to the Department of Computer Science and Engineering at the University of Mines and
+Technology (UMaT), Tarkwa. I affirm that this report has not been previously submitted for
+assessment at this university or any other educational institution.\\
+Signature of Student:\rule[0.1em]{20em}{1pt}\\[0.3cm]
+
+\newpage
+\section*{ABSTRACT}
+This report summarizes the main findings and knowledge acquired during our visit to the APPOLONIA MainOne (Main 1) Data Center, a leading supplier of reliable and expandable digital infrastructure. The tour provided an in-depth insight into the intricate layout and functioning of the facility, focusing on key elements like power distribution, cooling systems, server management, and disaster recovery procedures. The report focuses on the exploration of various sections in the data center, demonstrating Main 1's commitment to reliability, efficiency, and security.
+
+\newpage
+\section*{ACKNOWLEDGEMENT}
+I would like to express my sincere gratitude to the management and staff of MainOne for providing this insightful tour of their data center. I am especially thankful to Mr.Maurice and his team for their time and the detailed explanations provided throughout the tour. I also extend my appreciation to my supervisor, Dr.Abdul Fatao , for his guidance and support throughout the course of this field trip and report preparation.
+
+\newpage
+\section*{DEDICATION}
+This report is dedicated to my family for their constant encouragement and support throughout my academic journey. I also dedicate this work to my lecturers and supervisors, whose guidance has been instrumental in my learning process. A special dedication goes to the team at MainOne Data Center, particularly Mr.Maurice, whose expertise and insights during the field trip made this report possible.
+
+\newpage
+
+\tableofcontents
+\listoffigures
+
+
+\pagestyle{empty}
+\centering
+\pagenumbering{arabic}
+%------chapter 1
+\chapter{INTRODUCTION}
+\section{Introduction}
+\begin{justify}
+Data centers play a vital role in today’s digital economy, providing the infrastructure necessary for the storage, management, and distribution of vast amounts of data. With businesses, governments, and individuals relying heavily on digital services, the need for secure, dependable, and scalable data centers has increased significantly.\\
+Mr. Maurice commenced our tour by providing an overview of the data centre’s extensive
+hosting capabilities, which serve a variety of industries, including financial institutions. The
+facility is classified as a Tier 3 data centre by the Uptime Institute, a distinction earned due to
+its robust power infrastructure and stringent maintenance protocols.\\
+The centre’s reliability is bolstered by its dual power supply system: one stream powers
+primary operations, while the other is dedicated to cooling and backup. To ensure continuous service, the facility features two transformers, electricity from the Electricity Company of
+Ghana (ECG), backup generators, and an Uninterruptible Power Supply (UPS).
+\end{justify}
+\subsection{Brief\hspace{0.5cm}on\hspace{0.5cm}Data\hspace{0.5cm}Centers}
+\begin{justify}
+A data center is a dedicated facility that hosts critical computing systems like servers, networking devices, and storage. It acts as a hub where businesses manage, store, and process large
+volumes of data, ensuring the reliability and security of information across multiple industries.
+\end{justify}
+
+%------chapter 2
+\chapter{NETWORK MANAGEMENT}
+\section{Network\hspace{0.5cm}Management}\begin{flushleft}
+	Mr. Mawuli explained the key elements of network management, including fire protection,
+	power, cooling, and connectivity, which add security and value for customers. The ISO 27001-
+	certified, Tier 3 facility ensures ”99.99\% availability.” We toured the loading bay, where combustible materials are stored separately to reduce fire risks, and the ”Meet Me Room” (MMR
+	B), a connection hub for customers and service providers. Critical areas feature industrial air
+	conditioning to prevent electrostatic discharge, while the Optical Distribution Frame (ODF) and
+	IP rack Cisco Nessus 70010 provide redundant customer connections.\\[0.3cm]
+
+
+\subsection{Tier 3 Infrastructure}
+\begin{justify}
+	A Tier 3 data centres offer 99.99\% availability, ensuring minimal downtime—less than 1.6
+	hours per year. This classification ensures that the data center can undergo maintenance without
+	disrupting service, as it includes multiple power and cooling paths, ensuring redundancy. In the
+	event of a power failure, the system switches to alternative sources, such as UPS or generators,
+	to maintain operations. This level of reliability is crucial for businesses that cannot afford
+	significant service interruptions.
+\end{justify}
+
+
+%---- chapter 3
+\chapter{DATA HALL}
+
+\subsection{Temperature Regulation}
+\begin{justify}
+	Mr. Denis guided us through the data hall, which employs advanced cooling systems, including
+	Computer Room Air Conditioning (CRAC) units. Five units are needed for full load operation,
+	with one serving as backup, though only two were running during our visit.
+	The hall uses containment systems to separate hot and cold air. Servers in hot aisles push
+	heat through vents, which is recycled to regulate cooling needs. The power supply is split between two sources via Power Distribution Units (PDUs) connected by bus bars. FM200 gas
+	provides fire suppression, while the ventilation and extractor systems maintain optimal temperature levels.
+\end{justify}
+\subsection{ FM 200 Gas}
+\begin{justify}
+	FM 200 gas is a widely used fire suppression agent in data centers. It is a colorless, odorless
+	gas that quickly extinguishes fires by removing heat or free radicals in a flame, thereby stopping
+	combustion. In the data center, FM 200 is used in conjunction with fire detection systems to
+	respond rapidly in case of fire, without damaging sensitive equipment. Unlike water-based
+	systems, FM 200 does not leave any residue and is safe for use in areas with electronics anddelicate systems. This makes it ideal for protecting the servers, networking equipment, and
+	power units within the data hall.
+\end{justify}
+\subsection{ Power Distribution Unit (PDU)}
+\begin{justify}
+	 A Power Distribution Unit (PDU) is a critical component in the data center’s power management
+	 system. PDUs are responsible for distributing electrical power to servers, networking devices,
+	 and other equipment. In the data hall, there are two main PDUs, labeled PDU A and PDU B,
+	 which provide redundant power supplies. This dual setup ensures that in the event one PDU
+	 fails, the other can continue providing uninterrupted power. The PDUs draw power from the
+	 main power sources, such as UPS and generators, and distribute it to the bus bars and equipment
+	 racks, ensuring stable and continuous operations across the facility.
+\end{justify}
+%chapter ---- 4
+\chapter{ELECTRICAL ENGINEERING ROOM}
+\subsection{Electrical Engineering Room}
+\begin{justify}
+	Electrical room plays a vital role in the overall functioning of the data center, housing the essential components that manage and distribute power throughout the facility. It is designed
+	to ensure a seamless and uninterrupted power supply, safeguarding the data center’s operations from power outages and other electrical issues. The electrical room ensures uninterrupted
+	power supply, featuring a DC MSB panel, UPS system, MCCB, and Sterling Generators for efficient power distribution, immediate for long-term backup, ensuring each section of the facility
+	receives stable and reliable power respectively
+\end{justify}
+\subsection{ Power Distribution}
+\begin{justify}
+	Each section of the data center has a dedicated power supply managed from the electrical room.
+	The room is responsible for ensuring that power is distributed efficiently and reliably to different areas of the facility, from the servers to the cooling systems and security controls. This
+	ensures that all critical operations within the data center remain functional, even during power
+	fluctuations or outages.
+\end{justify}
+\subsection{MCCB (Molded Case Circuit Breaker)}
+\begin{justify}
+	The electrical room is also equipped with a Molded Case Circuit Breaker (MCCB), which is
+	used to monitor and control electrical faults. The MCCB is designed to automatically detect any
+	abnormalities in the electrical system, such as overloads or short circuits, and shut off power to
+	prevent further damage. This system not only enhances the safety of the data center but also
+	ensures that any electrical issues are quickly addressed, minimizing the risk of disruptions.
+\end{justify}
+\chapter{SERVICE YARD AND POWER
+	MANAGEMENT}
+	\subsection{Service Yard}
+	\begin{justify}
+		The service yard visit was a detailed lesson in power management, where we observed the
+		Apollonia Connect bulk litter system.Power enters the facility through an 11KV line, which
+		is stepped down to 24V by an on-load tap changer transformer.This process ensures power is
+		distributed efficiently across the entire data center, contributing to its Tier 3 reliability.
+	\end{justify}
+\subsection{ Power Management}
+\begin{justify}
+	 The Sterling Generator is a key power backup solution used in the data center to ensure continuous operation in the event of a power failure. It is designed to activate automatically when the
+	 main power supply from the grid fails, providing a reliable alternative power source to keep the
+	 facility running. The generator is integrated into the data center’s overall power infrastructure,
+	 which includes UPS systems and transformers, to ensure seamless transitions during outages.
+	 Sterling Generators are known for their efficiency, durability, and ability to handle heavy loads,
+	 making them essential for maintaining the up-time and operational stability of the data center.
+	 By utilizing this generator, the data center minimizes the risk of downtime, safeguarding both
+	 the infrastructure and the data stored within.
+\end{justify}
+\subsection{Building Management System}
+\begin{justify}
+	 The Building Management System (BMS) monitors the overall environment with 43 cameras
+	 and Very Early Smoke Detector Apparatus (VESDA) systems. The facility is equipped with 43
+	 cameras, most of which are positioned in the data hall to eliminate blind spots. The centre also
+	 uses double-knock fire alarms and air samplers to detect any potential hazards early on.
+	 In conclusion, the visit to the data centre was insightful, showcasing its robust infrastructure,
+	 high standards of security, and efficient power management. The knowledge gained from understanding how the centre operates will be invaluable for future projects involving data hosting
+	 and network management.
+\end{justify}
+
+\chapter{Services}
+\begin{enumerate}
+    \item Colocation Services: Secure housing for businesses’ servers and network equipment.
+
+    \item Cloud Services: Infrastructure for cloud storage, hosting applications, and virtual machines.
+
+    \item Physical Space:Physical Space for Client Servers: Providing dedicated areas for client hardware.
+
+    \item Interconnection Services: Connecting businesses with partners and service providers to enhance network performance.
+
+    \item Disaster Recovery and Backup: Protecting critical data and ensuring rapid recovery from disruptions.
+
+    \item Managed IT Services: Support for managing and monitoring IT infrastructure, including security and network management.
+
+    \item Network Connectivity: Robust fiber optic network and internet services for businesses and telecom operators.
+
+   \end{enumerate}
+
+
+
+\end{flushleft}
+
+
+
+\chapter*{CONCLUSION}
+\begin{flushleft}
+	The field trip to Main 1 Data Center provided invaluable insight into the operation of a modern data center. The facility’s infrastructure, including redundant power systems, advanced cooling, and fire suppression mechanisms, is designed to ensure the continuous operation of critical IT services. Main 1’s dedication to reliability, security, and scalability makes it a leading provider in the digital infrastructure sector, supporting the needs of various organizations.
+\end{flushleft}
+
+
+
+\chapter*{REFERENCES}
+ Mr. Maurice (MainOne Data Center Ghana, Accra), Presentation on the MainOne Center History,Energy Resources,Server Room maintenance on 23/08/2024.\\[0.6cm]
+ Mr. Denis (2024). “Personal communication. Customer Operations, Data Center Field
+ Trip”, Accra, August, 2024.
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
